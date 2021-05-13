@@ -28,19 +28,19 @@ function askforoptions() {
   var count = 0
 
   if (lowerChoice === false) {
-    count--;
+    count++;
   }
   if (upperChoice === false) {
-    count--;
+    count++;
   }
   if (numberChoice === false) {
-    count--;
+    count++;
   }
   if (specialChoice === false) {
-    count--;
+    count++;
   }
 
-  if (count < -2) {
+  if (count > 2) {
     alert('At least two criteria required to generate a safe password. \nPlease click "Generate Password" to start over.');
     return (askforoptions);
   }
