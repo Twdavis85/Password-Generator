@@ -81,7 +81,7 @@ function generatePassword() {
     characters = characters.concat(special)
   }
 
-  console.log(characters)
+  // console.log(characters)
   var results = []
   for (i = 0; i < passoptions.passwordLength; i++) {
     var digit = Math.floor(Math.random() * characters.length)

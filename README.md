@@ -1,6 +1,7 @@
 # Password-Generator
 
 ## Description
+For this assignment we were asked to write the JavaScript code for a functioning password generator.
 
 ## Installation
 
