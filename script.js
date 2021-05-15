@@ -52,13 +52,11 @@ function askforoptions() {
     numberChoice,
     specialChoice
   }
-  console.log(options)
   return options
 }
 // Function that creates the array for random character selection
 function generatePassword() {
   var passoptions = askforoptions()
-  console.log(passoptions)
 
 
   var lower = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
@@ -81,7 +79,7 @@ function generatePassword() {
     characters = characters.concat(special)
   }
 
-  // console.log(characters)
+  console.log(characters)
   var results = []
   for (i = 0; i < passoptions.passwordLength; i++) {
     var digit = Math.floor(Math.random() * characters.length)
